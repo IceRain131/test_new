@@ -1,0 +1,23 @@
+body{
+    margin-left: 60px;
+    background-color: #bbb;
+}
+.menu_bar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #111;
+    color: #eee;
+    height: 100%;
+    width: 50px;
+    transition: 0.2s;
+}
+.menu_bar:hover{
+    width: 150px;
+    transition: 0.2s;
+}
+.menu_item{
+    text-align: center;
+    margin: 10px;
+    font-size: 24pt;
+}

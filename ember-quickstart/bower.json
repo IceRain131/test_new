@@ -1,0 +1,14 @@
+{
+  "name": "ember-quickstart",
+  "description": "Small description for ember-quickstart goes here",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

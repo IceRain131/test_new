@@ -8,4 +8,6 @@ export default class Router extends EmberRouter {
 
 Router.map(function() {
   this.route('scientists');
+  this.route('create-hire');
+  this.route('create');
 });

@@ -1,0 +1,23 @@
+<form>
+  <fieldset class="form-group">
+    <Input  type="text" placeholder="Название велосипеда" @value={{this.bicycleName}} />
+  </fieldset>
+  <fieldset class="form-group">
+    <Input  type="checkbox" placeholder="Прокат" @value={{this.hire}} />
+  </fieldset>
+  <fieldset class="form-group">
+    <Input  type="time" placeholder="Время проката" @value={{this.time_hire}} />
+  </fieldset>
+  <fieldset class="form-group">
+    <Input  type="date" placeholder="Дата взятия на прокат" @value={{this.date_hire}} />
+  </fieldset>
+  <button  onclick="{{create}}" type="button">
+    Create
+  </button>
+</form>
+<ul>
+  {{#each @model as |create|}}
+    <li>{{create}}</li>
+  {{/each}}
+</ul>
+{{outlet}}

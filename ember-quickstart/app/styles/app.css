@@ -1,5 +1,7 @@
-
-
+.linkto{
+    color: #bbb;
+    font-size: 11pt;
+}
 body{
     margin-left: 60px;
     background-color: #bbb;
